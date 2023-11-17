@@ -16,7 +16,7 @@ ORDER BY location
 /*
 To handle the divide by zero error in SQL Server
 you can use the NULLIF function to return a null value if the divisor is zero. 
-Here’s an example code snippet that you can use to modify your SQL query:
+Hereâ€™s an example code snippet that you can use to modify your SQL query:
 
 SELECT column1 / NULLIF(column2, 0) AS result FROM your_table
 
